@@ -5,15 +5,21 @@ export const CV_DATA = {
   email: "alex_webdev@yahoo.com",
   linkedin: "https://www.linkedin.com/in/alex-v-webdev/",
   github: "https://www.github.com/alexphex",
-  profile: "Passionate WordPress / WooCommerce developer with experience in building and customizing websites and online shops. Experienced in creating projects from scratch using WordPress, Gutenberg, WooCommerce, and integrating custom plugins. Familiar with modern development processes, including Docker, Git, and local development environments.",
-  skills: [
-    { category: "WordPress & WooCommerce", items: "Theme customization, Child Theme, plugin integration, mini-shop development, update and maintain WordPress websites, Convert HTML Templates into functional WordPress themes" },
-    { category: "PHP", items: "Actions/ Filters/ Queries/ Loop/ AJAX/ REST API" },
-    { category: "Front-End", items: "HTML, CSS, JS, jQuery, React & Gutenberg" },
-    { category: "Tools", items: "Docker, Docker Compose, VS Code, Git, GitHub" },
-    { category: "Optional", items: "Bootstrap, Tailwind, SCSS" }
+  profile: "WordPress Developer focused on custom theme development and Gutenberg integration using React. I build and maintain websites and WooCommerce stores, transitioning from classic templates to custom block-based structures. Experience includes creating Gutenberg blocks, extending WordPress functionality through the REST API, and integrating third-party services. I use Docker for local environments and Git for version control, following a structured approach to development and deployment.",  skills: [
+  { category: "WordPress Development", items: "Gutenberg Block development (React), Custom Themes, WooCommerce customization, Child Themes, ACF" },
+  { category: "Languages & Core", items: "PHP, JavaScript (ES6+), React (hooks/components), HTML5, CSS3/SCSS" },
+  { category: "WordPress API", items: "REST API integration, Actions, Filters, WP_Query, AJAX" },
+  { category: "Tools", items: "Docker, Docker Compose, Git, GitHub, VS Code, NPM" }
   ],
   projectGroups: [
+    {
+      title: "Gutenberg & React development",
+      description: "Development of custom Gutenberg blocks using React and WordPress Block API. Integration of blocks for specific content layouts and editorial workflows.",
+      links: [
+        { name: "block1-ready-soon", url: "https://github.com/alexphex/" }, 
+        { name: "block2-ready-soon", url: "https://github.com/alexphex/" }
+      ]
+    },
     {
       title: "WordPress themes projects",
       description: "My custom themes",
