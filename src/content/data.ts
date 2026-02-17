@@ -16,8 +16,7 @@ export const CV_DATA = {
       title: "Gutenberg & React development",
       description: "Development of custom Gutenberg blocks using React and WordPress Block API. Integration of blocks for specific content layouts and editorial workflows.",
       links: [
-        { name: "block1-ready-soon", url: "https://github.com/alexphex/" }, 
-        { name: "block2-ready-soon", url: "https://github.com/alexphex/" }
+        { name: "lead-conversion-block", url: "https://github.com/alexphex/lead-conversion-block.git" } 
       ]
     },
     {
