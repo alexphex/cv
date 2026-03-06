@@ -1,7 +1,7 @@
 // content/data.ts
 export const CV_DATA = {
   name: "Alexei Verdes",
-  role: "WordPress Developer | React & Gutenberg | Custom Blocks",
+  role: "WordPress Developer | React & Custom Gutenberg Blocks",
   email: "alex_webdev@yahoo.com",
   linkedin: "https://www.linkedin.com/in/alex-v-webdev/",
   github: "https://www.github.com/alexphex",
@@ -16,6 +16,7 @@ export const CV_DATA = {
       title: "Gutenberg & React development",
       description: "Development of custom Gutenberg blocks using React and WordPress Block API. Integration of blocks for specific content layouts and editorial workflows.",
       links: [
+        { name: "green-impact-calculator", url: "https://github.com/alexphex/green-impact-calculator" },
         { name: "lead-conversion-block", url: "https://github.com/alexphex/lead-conversion-block.git" } 
       ]
     },
