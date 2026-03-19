@@ -17,7 +17,8 @@ export const CV_DATA = {
       description: "Development of custom Gutenberg blocks using React and WordPress Block API. Integration of blocks for specific content layouts and editorial workflows.",
       links: [
         { name: "green-impact-calculator", url: "https://github.com/alexphex/green-impact-calculator" },
-        { name: "lead-conversion-block", url: "https://github.com/alexphex/lead-conversion-block.git" } 
+        { name: "lead-conversion-block", url: "https://github.com/alexphex/lead-conversion-block.git" },
+        { name: "event-core-blocks", url: "https://github.com/alexphex/event-core-blocks.git" } 
       ]
     },
     {
