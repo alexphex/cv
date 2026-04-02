@@ -1,7 +1,7 @@
 // content/data.ts
 export const CV_DATA = {
   name: "Alexei Verdes",
-  role: "WordPress Developer | React & Custom Gutenberg Blocks",
+  role: "WordPress Developer | Custom Gutenberg Blocks",
   email: "alex_webdev@yahoo.com",
   linkedin: "https://www.linkedin.com/in/alex-v-webdev/",
   github: "https://www.github.com/alexphex",
