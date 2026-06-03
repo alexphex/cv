@@ -35,7 +35,7 @@ export default function Home() {
         <div className="mt-8 w-full sm:w-auto">
           <a 
             href="/CV_alex2026.pdf" 
-            download="Alexei_Verdes_CV.pdf" 
+            download="Alexei_Verdes_CV_wp_dev.pdf" 
             className="flex items-center justify-center px-6 py-3 border-2 border-barva-green text-barva-green hover:bg-barva-green hover:text-barva-bg transition-all rounded font-bold text-sm md:text-base tracking-widest uppercase"
           >
             <span className="mr-2 text-xl">💾</span> DOWNLOAD CV (PDF)
@@ -51,9 +51,9 @@ export default function Home() {
         </p>
       </section>
 
-      {/* SKILLS */}
+      {/* TECHNICAL SKILLS */}
       <section className="mb-14">
-        <h2 className="text-barva-purple font-bold mb-6 tracking-widest uppercase text-sm border-b border-white/5 inline-block">// Skills</h2>
+        <h2 className="text-barva-purple font-bold mb-6 tracking-widest uppercase text-sm border-b border-white/5 inline-block">// Technical Skills</h2>
         <div className="grid gap-4">
           {CV_DATA.skills.map((skill, i) => (
             <div key={i} className="text-lg border-b border-white/5 pb-3 group">
