@@ -1,30 +1,32 @@
 // content/data.ts
 export const CV_DATA = {
   name: "Alexei Verdes",
-  role: "WordPress Developer",
+  role: "WordPress Developer — Page Builders, Custom Development",
   email: "alex_webdev@yahoo.com",
   linkedin: "https://www.linkedin.com/in/alex-v-webdev/",
   github: "https://www.github.com/alexphex",
-  profile: "Self-taught WordPress Developer with a professional background in logistics and client-facing operations. Over the past few years, I have focused on learning WordPress and WooCommerce development, building custom themes, plugins, and business-focused functionality using PHP and JavaScript. My projects are self-directed and developed from scratch, giving me hands-on experience with WordPress architecture, WooCommerce customization, and modern development workflows. I am looking to start my professional career as a WordPress Developer, bringing both technical skills and real-world business experience while continuing to grow through commercial projects and team collaboration.",  skills: [
+  profile: "Self-taught WordPress Developer comfortable across the full range of client delivery: fast, pixel-accurate builds with Elementor, Divi and WPBakery, and deeper custom work in PHP and JavaScript — custom themes, Gutenberg blocks, and WooCommerce customization. Also developing REST API and webhook-based automation (n8n) that connects WordPress and WooCommerce to CRM systems. Background in logistics shaped a practical, deadline-driven approach to client work. Looking to start a professional career as a WordPress Developer — ready to begin with builder-based and support work, and grow toward custom development and automation projects.",  skills: [
+  { category: "Page Builders", items: "Elementor, Divi, WPBakery (Visual Composer) — responsive layouts, global styles, dynamic/custom widgets, third-party plugin integration" },
+  { category: "Gutenberg", items: "Custom block development (block.json, InspectorControls, dynamic rendering) — examples published on GitHub" },
   { category: "WordPress", items: "Custom Theme Development, Custom Post Types & Taxonomies, Hooks & Filters, Template Hierarchy, Customizer API" },
-  { category: "Php / JS", items: "OOP PHP, WordPress Coding Standards, Secure Data Handling, Vanilla JavaScript (ES6+), AJAX, Gutenberg Block Development" },
+  { category: "PHP / JS", items: "OOP PHP, WordPress Coding Standards, Secure Data Handling, Vanilla JavaScript (ES6+), AJAX" },
   { category: "WooCommerce", items: "Custom Product & Checkout Fields, Order Meta, Checkout Customization, Email Templates, HPOS Compatibility" },
-  { category: "REST API", items: "Custom Endpoints, Authentication, Data Validation & Sanitization, REST API Integrations" },
-  { category: "Dev Tools", items: "Git, GitHub, DDEV, SCSS, npm, PHP_CodeSniffer (WPCS)" }
+  { category: "Automation & Integrations", items: "REST API (custom endpoints, auth, validation & sanitization), Webhooks, n8n workflows, CRM integrations (HubSpot, Pipedrive – in progress)" },
+  { category: "Dev Tools", items: "Git, GitHub, DDEV, SCSS, npm" }
   ],
   projectGroups: [
       {
       title: "Agency Theme  —  Custom WordPress Theme",
-      description: "**Built from scratch: CPT 'project' + taxonomy 'service_type'; archive, single, taxonomy templates; ACF fields with esc_html() / esc_url() output; **Native Gutenberg block 'Project Hero' with InspectorControls; Customizer section with get_theme_mod(); dual nav menus.",
+      description: "**Built from scratch (no page builders) — CPT project with service_type taxonomy, archive/single templates, custom meta fields (client, year, URL) via native meta boxes with nonce validation and sanitized output. **Native Gutenberg block 'Project Hero' registered via block.json; Customizer section with get_theme_mode() for hero content, accent color, and contact info; dual nav menus (primary + footer)",
       links: [
         { name: "agency-theme", url: "https://github.com/alexphex/agency-theme.git" }
       ]
     },
     {
-      title: "Smart Lead Manager  —  WordPress Plugin ",
-      description: "**OOP architecture: Singleton loader (spl_autoload_register); CPT 'agency_lead' with custom admin columns & status filter; **Secure REST endpoint — full sanitize/nonce chain; Action Scheduler → wp_remote_post() webhook; HTML email notifications via wp_mail().",
+      title: "Lead Capture Sync (in progress)  —  WordPress Plugin (WP → n8n → CRM)",
+      description: "**Custom OOP PHP plugin with Composer/PSR-4 autoloading and a layered architecture (Controller → Service → Repository) separating business logic from WordPress data operations. **Built a REST API for lead creation (with validation) and a token-authenticated callback endpoint for external services to update lead status, plus a Contact Form 7 integration using the Provider pattern for easy extension to other form plugins. **Implemented webhook-based sync to n8n/CRM with duplicate-lead detection and a status lifecycle (pending → processing → processed/failed); currently finalizing the n8n workflow and CRM integration",
       links: [
-        { name: "smart-lead-manager", url: "https://github.com/alexphex/lead-manager.git" }
+        { name: "lead-capture-sync", url: "https://github.com/alexphex/lead-capture-sync" }
       ]
     },
     {
@@ -79,5 +81,5 @@ export const CV_DATA = {
       ]
     }
   ],
-  languages: ["English — B1", "Roumanian — Native", "French — Fluently"]
+  languages: ["English — A2", "Roumanian — Native", "French — Fluently"]
 };

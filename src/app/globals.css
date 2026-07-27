@@ -1,14 +1,25 @@
 @import "tailwindcss";
 
-@theme {
+/*@theme {
   /* Настраиваем цвета Barva Dark через переменные */
-  --color-barva-bg: #1e1e1e;
+/*  --color-barva-bg: #1e1e1e;
   --color-barva-card: #252526;
   --color-barva-text: #d4d4d4;
   --color-barva-accent: #ce9178;
   --color-barva-blue: #569cd6;
   --color-barva-green: #6a9955;
   --color-barva-purple: #c586c0;
+}*/
+
+@theme {
+  /* Barva 2026 — тёмная тема с трендовыми акцентами */
+  --color-barva-bg: #14131a;      /* глубокий тёмный с холодным фиолетовым подтоном вместо нейтрального серого */
+  --color-barva-card: #1e1c26;    /* чуть светлее фона, с тем же подтоном — карточки не выглядят "плоско" */
+  --color-barva-text: #e4e1e6;    /* мягкий тёплый белый вместо серого — выше контраст, доступнее */
+  --color-barva-accent: #ff7e5f;  /* тёплый коралл/терракота — замена ce9178, более насыщенный и живой */
+  --color-barva-blue: #4fd8e0;    /* molten teal blue — главный тренд-акцент 2026 */
+  --color-barva-green: #7fd88f;   /* чуть более сочный зелёный, без потери "кодового" ощущения */
+  --color-barva-purple: #b088f9;  /* aubergine/lavender — второй трендовый акцент 2026 */
 }
 
 /* Базовые стили для всей страницы */
