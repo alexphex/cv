@@ -81,5 +81,5 @@ export const CV_DATA = {
       ]
     }
   ],
-  languages: ["English — A2", "Roumanian — Native", "French — Fluently"]
+  languages: ["English — A2", "Roumanian — Native", "Russian — Fluently", "French — Fluently"]
 };
