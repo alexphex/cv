@@ -1,17 +1,16 @@
 // content/data.ts
 export const CV_DATA = {
   name: "Alexei Verdes",
-  role: "WordPress Developer — Page Builders, Custom Development",
+  role: "WordPress / WooCommerce Developer — Page Builders, Custom Development",
   email: "alex_webdev@yahoo.com",
   linkedin: "https://www.linkedin.com/in/alex-v-webdev/",
   github: "https://www.github.com/alexphex",
-  profile: "Self-taught WordPress Developer comfortable across the full range of client work: fast, pixel-accurate builds with Elementor and deeper custom work in PHP and JavaScript — custom themes, Gutenberg blocks, and WooCommerce customization. Also building skills in REST API and webhook-based automation (n8n) to connect WordPress and WooCommerce with CRM systems. Background in logistics shaped a practical, deadline-driven approach to client work. Looking to start a professional career as a WordPress Developer — ready to begin with builder-based work and site support, then grow toward custom development and automation projects.",  skills: [
+  profile: "Self-taught WordPress/WooCommerce Developer comfortable across the full range of client work: fast, pixel-accurate builds with Elementor, and store-side WooCommerce customization — product/checkout fields, order management, custom admin columns, email templates. Also confident with deeper custom work in PHP and JavaScript — custom themes, Gutenberg blocks — and building skills in REST API/webhook automation (n8n). Background in logistics shaped a practical, deadline-driven approach to client work. Looking to start a professional career as a WordPress/WooCommerce Developer — ready to begin with builder-based work and store setup/support, then grow toward custom development and automation.",  skills: [
   { category: "Page Builders", items: "Elementor — responsive layouts, global styles, dynamic/custom widgets, third-party plugin integration" },
   { category: "Gutenberg", items: "Custom block development (block.json, InspectorControls, dynamic rendering) — examples published on GitHub" },
   { category: "WordPress", items: "Custom Theme Development, Custom Post Types & Taxonomies, Hooks & Filters, Template Hierarchy, Customizer API" },
-  { category: "PHP / JS", items: "OOP PHP, WordPress Coding Standards, Secure Data Handling, Vanilla JavaScript (ES6+), AJAX" },
   { category: "WooCommerce", items: "Custom Product & Checkout Fields, Order Meta, Checkout Customization, Email Templates, HPOS Compatibility" },
-  { category: "Automation & Integrations", items: "REST API (custom endpoints, auth, validation & sanitization), Webhooks, n8n workflows, CRM integrations (HubSpot, Pipedrive – in progress)" },
+  { category: "PHP / JS", items: "OOP PHP, WordPress Coding Standards, Secure Data Handling, Vanilla JavaScript (ES6+), AJAX" },
   { category: "Dev Tools", items: "Git, GitHub, DDEV, SCSS, npm" }
   ],
   projectGroups: [
@@ -81,5 +80,5 @@ export const CV_DATA = {
       ]
     }
   ],
-  languages: ["English — A2", "Roumanian — Native", "Russian — Fluently", "French — Fluently"]
+  languages: ["English — B1", "Roumanian — Native", "Russian — Fluently", "French — Fluently"]
 };
